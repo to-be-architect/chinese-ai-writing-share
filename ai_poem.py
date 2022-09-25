@@ -48,8 +48,8 @@ def poem(title_str, opt_author=None, is_input_traditional_chinese=False):
 
 
 if __name__ == '__main__':
-    for title in ['秋', "百花", '佳人有约', "中秋", "抚琴一首"]:
+    for title in ['秋日', "柿子", '美人林下', "游船", "品茶"]:
         # Empty author means general style
-        for author in ["", "杜甫", "李白", "李清照", "苏轼", "钱力"]:
+        for author in ["", "杜甫", "李白", "李清照", "苏轼", "钱力", "辛弃疾", "陆游", "王维", "李商隐", "杜牧"]:
             poem(title, author)
         print()
